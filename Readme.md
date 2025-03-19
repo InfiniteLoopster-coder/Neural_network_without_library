@@ -8,9 +8,13 @@ Randomly initialize weights (and biases, if used) for each layer. The dimensions
 3. Forward Propagation:
 
 --> Compute the linear combination:
+
             z=W⋅x+b
+            
 --> Apply an activation function (e.g., sigmoid, ReLU) to introduce non-linearity:
+
             a=σ(z)
+
 4. Compute the Loss:
 Use a loss function (e.g., mean squared error for regression or cross-entropy for classification) to measure how far off the network’s predictions are from the target values.
 
